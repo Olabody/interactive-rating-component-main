@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Times New Roman", Times, serif;
+}
+
+p,
+li,
+button {
+  font-size: 15px;
+}
+
+main {
+  min-height: 100vh;
+  background-color: hsl(216deg, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.form {
+  opacity: 1;
+  background-color: hsl(213deg, 19%, 18%);
+  min-height: 40vh;
+  width: 25rem;
+  padding-left: 1rem;
+  border-radius: 8%;
+}
+.form h1 {
+  margin: 1rem;
+}
+.form p {
+  margin: 1rem;
+  opacity: 0.7;
+}
+.form .star {
+  opacity: 0.7;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: hsl(216deg, 12%, 54%);
+  border-radius: 50%;
+}
+.form .ratings {
+  display: flex;
+  justify-content: flex start;
+  align-items: flex start;
+  flex-direction: row;
+}
+.form .ratings button {
+  opacity: 0.7;
+  list-style: none;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: hsl(216deg, 12%, 54%);
+  border-radius: 50%;
+  border: none;
+  color: hsl(0deg, 0%, 100%);
+}
+.form .ratings button:hover {
+  background-color: hsl(25deg, 97%, 53%);
+}
+.form .submit {
+  margin: 1rem;
+  border: none;
+  background-color: hsl(25deg, 97%, 53%);
+  padding: 0.6rem 9rem;
+  color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
+}
+.form .submit:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+
+footer {
+  min-height: 5vh;
+  background-color: hsl(225deg, 3%, 23%);
+}
+footer a {
+  color: white;
+}
+
+.active {
+  background-color: hsl(225deg, 3%, 23%);
+}
+
+@media screen and (max-width: 800px) {
+  .form {
+    min-height: 30vh;
+    width: 18rem;
+  }
+  .form .ratings button {
+    margin: 0.5rem;
+    padding: 0.8rem;
+  }
+  .form .submit {
+    padding: 0.4rem 6rem;
+  }
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  background-color: hsl(213deg, 19%, 18%);
+  min-height: 40vh;
+  width: 25rem;
+  border-radius: 8%;
+}
+.wrapper h1 {
+  margin: 1rem;
+}
+.wrapper p {
+  margin-bottom: 1rem;
+}
+.wrapper .thank {
+  margin: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    min-height: 30vh;
+    width: 18rem;
+  }
+}/*# sourceMappingURL=style.css.map */

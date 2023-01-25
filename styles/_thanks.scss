@@ -1,0 +1,25 @@
+.wrapper {
+  @include flex(center, center, column);
+  opacity: 1;
+  background-color: hsl(213, 19%, 18%);
+  min-height: 40vh;
+  width: 25rem;
+  border-radius: 8%;
+
+  h1 {
+    margin: 1rem;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+  .thank {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    min-height: 30vh;
+    width: 18rem;
+  }
+}
